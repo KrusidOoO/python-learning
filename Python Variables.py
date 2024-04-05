@@ -98,3 +98,41 @@ print("-")
 x=5
 y="John Wick"
 print(x,y)
+#Global variables
+x = "awesome"
+def myfunc():
+    print("Python is "+ x)
+
+myfunc()
+#Variable inside of a function
+print("-")
+x="awesome"
+def myfunc():
+    x="fantastic"
+    print("Python is "+x)
+
+myfunc()
+
+print("Python is "+x)
+#Global keyword
+print("-")
+def myfunc():
+    global x
+    x="fantastic"
+
+myfunc()
+
+print("Python is "+x)
+#Global keyword makes the variable belong to the global scope
+print("-")
+#To change a value of a global variable inside a function use the global keyword
+x ="awesome"
+
+def myfunc():
+    global x
+    x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
+print("-")
