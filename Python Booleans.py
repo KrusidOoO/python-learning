@@ -40,7 +40,7 @@ bool("abc")
 bool(123)
 bool(["apple", "cherry", "banana"])
 #Some Values are False
-#Not namy Values evaluate to False
+#Not many Values evaluate to False
 #Except empty Values such as (), [], {}, "", 0 & None
 #And of course the value False will evaluate to False
 bool(False)
